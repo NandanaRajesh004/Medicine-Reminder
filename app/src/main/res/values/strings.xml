@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Medicine Reminder</string>
+    <string name="tagline">Never miss a dose again</string>
+
+    <!-- Navigation tabs -->
+    <string name="nav_today">Today</string>
+    <string name="nav_medicines">Medicines</string>
+    <string name="nav_history">History</string>
+
+    <!-- Today Screen -->
+    <string name="today_schedule_title">Today\'s Schedule</string>
+    <string name="adherence_summary">Today\'s Adherence</string>
+    <string name="doses_taken_count">%1$d of %2$d taken</string>
+    <string name="no_doses_today">No medicine doses scheduled for today!</string>
+    <string name="no_doses_today_sub">Tap the + button to add your medicines and reminders.</string>
+    <string name="mark_taken">Take</string>
+    <string name="mark_skip">Skip</string>
+    <string name="undo">Undo</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_taken">Taken</string>
+    <string name="status_missed">Missed</string>
+    <string name="status_skipped">Skipped</string>
+
+    <!-- Filter chips -->
+    <string name="filter_all">All</string>
+    <string name="filter_pending">Pending</string>
+    <string name="filter_taken">Taken</string>
+
+    <!-- Add/Edit Medicine -->
+    <string name="title_add_medicine">Add Medicine</string>
+    <string name="title_edit_medicine">Edit Medicine</string>
+    <string name="label_medicine_name">Medicine Name *</string>
+    <string name="hint_medicine_name">e.g. Paracetamol, Metformin</string>
+    <string name="label_dosage">Dosage *</string>
+    <string name="hint_dosage">e.g. 500 mg, 1 tablet, 10 ml</string>
+    <string name="label_form">Medicine Form</string>
+    <string name="label_schedule_times">Reminder Times *</string>
+    <string name="add_time_button">+ Add Time</string>
+    <string name="label_frequency">Frequency</string>
+    <string name="label_days_of_week">Select Days</string>
+    <string name="label_interval_days">Days Interval</string>
+    <string name="label_dates">Schedule Duration</string>
+    <string name="label_start_date">Start Date</string>
+    <string name="label_end_date">End Date (Optional)</string>
+    <string name="label_food_relation">Food Relation</string>
+    <string name="label_notes">Instructions / Notes</string>
+    <string name="hint_notes">e.g. Drink plenty of water, with breakfast</string>
+    <string name="save_medicine">Save Medicine</string>
+    <string name="update_medicine">Update Medicine</string>
+    <string name="delete_medicine">Delete Medicine</string>
+
+    <!-- Frequency Options -->
+    <string name="freq_daily">Every Day</string>
+    <string name="freq_specific_days">Specific Days of Week</string>
+    <string name="freq_interval">Every X Days</string>
+    <string name="freq_as_needed">As Needed (PRN)</string>
+
+    <!-- Food Options -->
+    <string name="food_anytime">Anytime / No Food Restriction</string>
+    <string name="food_before">Before Meal</string>
+    <string name="food_after">After Meal</string>
+    <string name="food_with">With Meal</string>
+
+    <!-- Medicine Forms -->
+    <string name="form_tablet">Tablet</string>
+    <string name="form_capsule">Capsule</string>
+    <string name="form_syrup">Syrup / Liquid</string>
+    <string name="form_injection">Injection</string>
+    <string name="form_drops">Drops</string>
+    <string name="form_inhaler">Inhaler</string>
+    <string name="form_other">Other</string>
+
+    <!-- Details Screen -->
+    <string name="title_details">Medicine Details</string>
+    <string name="active_reminder">Reminder Active</string>
+    <string name="delete_confirmation_title">Delete Reminder</string>
+    <string name="delete_confirmation_msg">Are you sure you want to delete this medicine reminder and its scheduled alarms?</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_edit">Edit</string>
+
+    <!-- Alarm & Notification -->
+    <string name="notification_channel_name">Medicine Reminders</string>
+    <string name="notification_channel_desc">Alerts and alarms for scheduled medication doses</string>
+    <string name="notification_alarm_title">Time for your medicine!</string>
+    <string name="action_take">Mark as Taken</string>
+    <string name="action_snooze">Snooze (10m)</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="alarm_ring_title">Medication Time</string>
+    <string name="alarm_ring_subtitle">Please take your prescribed dose</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Dose History &amp; Adherence</string>
+    <string name="no_history">No dose records yet.</string>
+    <string name="clear_history">Clear History</string>
+    <string name="confirm_clear_history">Do you want to clear all recorded dose history logs?</string>
+
+    <!-- Permissions -->
+    <string name="permission_notification_title">Enable Reminders</string>
+    <string name="permission_notification_desc">Medicine Reminder requires notification permissions to alert you when it is time to take your medication.</string>
+    <string name="permission_grant">Allow</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors (Clean Medical Teal Palette) -->
+    <color name="primary">#0D7A74</color>
+    <color name="primary_dark">#06544F</color>
+    <color name="primary_light">#E0F2F1</color>
+    <color name="primary_container">#D2ECE9</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Secondary / Accent -->
+    <color name="secondary">#00897B</color>
+    <color name="secondary_light">#80CBC4</color>
+    <color name="accent_coral">#FF6F61</color>
+    <color name="accent_orange">#F57C00</color>
+
+    <!-- Backgrounds & Surfaces -->
+    <color name="background">#F4F7F9</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#EEF2F6</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#E2E8F0</color>
+    <color name="border">#CBD5E1</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="text_on_dark">#FFFFFF</color>
+
+    <!-- Dose Status Indicators -->
+    <color name="status_taken">#16A34A</color>
+    <color name="status_taken_bg">#DCFCE7</color>
+    <color name="status_pending">#0284C7</color>
+    <color name="status_pending_bg">#E0F2FE</color>
+    <color name="status_missed">#DC2626</color>
+    <color name="status_missed_bg">#FEE2E2</color>
+    <color name="status_skipped">#D97706</color>
+    <color name="status_skipped_bg">#FEF3C7</color>
+
+    <!-- Category / Form Badges -->
+    <color name="form_tablet">#3B82F6</color>
+    <color name="form_tablet_bg">#EFF6FF</color>
+    <color name="form_capsule">#8B5CF6</color>
+    <color name="form_capsule_bg">#F5F3FF</color>
+    <color name="form_syrup">#EC4899</color>
+    <color name="form_syrup_bg">#FDF2F8</color>
+    <color name="form_injection">#EF4444</color>
+    <color name="form_injection_bg">#FEF2F2</color>
+    <color name="form_drops">#06B6D4</color>
+    <color name="form_drops_bg">#ECFEFF</color>
+    <color name="form_other">#6B7280</color>
+    <color name="form_other_bg">#F3F4F6</color>
+
+    <!-- Basic Shades -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="ripple_color">#200D7A74</color>
+</resources>

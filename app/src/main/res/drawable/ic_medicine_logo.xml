@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background circle / shield -->
+    <path
+        android:fillColor="#0D7A74"
+        android:pathData="M54,4 C26.4,4 4,26.4 4,54 C4,81.6 26.4,104 54,104 C81.6,104 104,81.6 104,54 C104,26.4 81.6,4 54,4 Z" />
+    <!-- Medical Cross -->
+    <path
+        android:fillColor="#80CBC4"
+        android:pathData="M48,28 L60,28 L60,48 L80,48 L80,60 L60,60 L60,80 L48,80 L48,60 L28,60 L28,48 L48,48 Z" />
+    <!-- White Pill Overlay -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M37,42 C32,47 32,55 37,60 L49,72 C54,77 62,77 67,72 L72,67 C77,62 77,54 72,49 L60,37 C55,32 47,32 42,37 Z" />
+    <!-- Pill Divider -->
+    <path
+        android:strokeColor="#0D7A74"
+        android:strokeWidth="3"
+        android:pathData="M44,65 L65,44" />
+</vector>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_header"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Top Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm_ring_title"
+        android:textColor="#CCFFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.05" />
+
+    <!-- Pulsing Medicine Icon Outer Ring -->
+    <FrameLayout
+        android:id="@+id/ring_outer_pulse"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_badge_rounded"
+        android:backgroundTint="#33FFFFFF">
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_badge_rounded"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:id="@+id/alarm_iv_icon"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_form_tablet"
+                app:tint="@color/primary" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <!-- Medicine Name -->
+    <TextView
+        android:id="@+id/alarm_tv_medicine_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="Paracetamol"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- Dosage -->
+    <TextView
+        android:id="@+id/alarm_tv_dosage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="500 mg • 1 tablet"
+        android:textColor="#EEFFFFFF"
+        android:textSize="18sp" />
+
+    <!-- Food Instruction Chip -->
+    <TextView
+        android:id="@+id/alarm_tv_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_badge_rounded"
+        android:backgroundTint="#26FFFFFF"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="6dp"
+        android:text="Take After Meal"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Take Medicine Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/alarm_btn_take"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:backgroundTint="@color/white"
+            android:text="Take Medicine"
+            android:textColor="@color/primary_dark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="16dp"
+            app:icon="@drawable/ic_check"
+            app:iconTint="@color/primary_dark" />
+
+        <!-- Snooze Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/alarm_btn_snooze"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#33FFFFFF"
+            android:text="Snooze (10 mins)"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:cornerRadius="14dp"
+            app:icon="@drawable/ic_snooze"
+            app:iconTint="@color/white" />
+
+        <!-- Dismiss Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/alarm_btn_dismiss"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="6dp"
+            android:text="Dismiss"
+            android:textColor="#CCFFFFFF"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

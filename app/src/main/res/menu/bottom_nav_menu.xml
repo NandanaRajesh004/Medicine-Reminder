@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_today"
+        android:icon="@drawable/ic_nav_today"
+        android:title="@string/nav_today" />
+
+    <item
+        android:id="@+id/navigation_medicines"
+        android:icon="@drawable/ic_nav_medicines"
+        android:title="@string/nav_medicines" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/ic_nav_history"
+        android:title="@string/nav_history" />
+</menu>
